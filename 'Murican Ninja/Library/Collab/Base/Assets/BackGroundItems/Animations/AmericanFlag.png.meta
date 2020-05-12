@@ -1,0 +1,151 @@
+fileFormatVersion: 2
+guid: d5e279b3b2f4f4c388091f052b08ef5c
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: AmericanFlag
+    21300002: AmericanFlag_0
+    21300004: AmericanFlag_1
+    21300006: AmericanFlag_2
+    21300008: AmericanFlag_3
+    21300010: AmericanFlag_4
+    21300012: AmericanFlag_5
+    21300014: AmericanFlag_6
+    21300016: AmericanFlag_7
+    21300018: AmericanFlag_8
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 256
+    textureFormat: -3
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: AmericanFlag_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 76
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AmericanFlag_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 76
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AmericanFlag_2
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 76
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AmericanFlag_3
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 76
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AmericanFlag_4
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 76
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AmericanFlag_5
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 76
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AmericanFlag_6
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 76
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AmericanFlag_7
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 76
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AmericanFlag_8
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 76
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

@@ -1,0 +1,2586 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5d402f598c2042759f69fa56f14b05b, type: 3}
+  m_Name: InfoSprite
+  m_EditorClassIdentifier: 
+  width: 16
+  height: 16
+  map:
+  - rect:
+      x: 792
+      y: 345.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 813
+      y: 345.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 834
+      y: 345.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 855
+      y: 345.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 876
+      y: 345.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 897
+      y: 345.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 918
+      y: 345.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 939
+      y: 345.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 960
+      y: 345.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 981
+      y: 345.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1002
+      y: 345.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1023
+      y: 345.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1044
+      y: 345.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1065
+      y: 345.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1086
+      y: 345.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1107
+      y: 345.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 792
+      y: 366.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 813
+      y: 366.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 834
+      y: 366.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 855
+      y: 366.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 876
+      y: 366.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 897
+      y: 366.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 918
+      y: 366.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 939
+      y: 366.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 960
+      y: 366.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 981
+      y: 366.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1002
+      y: 366.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1023
+      y: 366.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1044
+      y: 366.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1065
+      y: 366.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1086
+      y: 366.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1107
+      y: 366.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 792
+      y: 387.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 813
+      y: 387.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 834
+      y: 387.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 855
+      y: 387.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 876
+      y: 387.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 897
+      y: 387.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 918
+      y: 387.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 939
+      y: 387.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 960
+      y: 387.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 981
+      y: 387.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1002
+      y: 387.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1023
+      y: 387.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1044
+      y: 387.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1065
+      y: 387.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1086
+      y: 387.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1107
+      y: 387.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 792
+      y: 408.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 813
+      y: 408.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 834
+      y: 408.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 855
+      y: 408.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 876
+      y: 408.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 897
+      y: 408.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 918
+      y: 408.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 939
+      y: 408.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 960
+      y: 408.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 981
+      y: 408.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1002
+      y: 408.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1023
+      y: 408.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1044
+      y: 408.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1065
+      y: 408.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1086
+      y: 408.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1107
+      y: 408.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 792
+      y: 429.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 813
+      y: 429.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 834
+      y: 429.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 855
+      y: 429.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 876
+      y: 429.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 897
+      y: 429.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 918
+      y: 429.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 939
+      y: 429.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 960
+      y: 429.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 981
+      y: 429.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1002
+      y: 429.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1023
+      y: 429.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1044
+      y: 429.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1065
+      y: 429.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1086
+      y: 429.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1107
+      y: 429.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 792
+      y: 450.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 813
+      y: 450.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 834
+      y: 450.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 855
+      y: 450.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 876
+      y: 450.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 897
+      y: 450.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 918
+      y: 450.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 939
+      y: 450.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 960
+      y: 450.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 981
+      y: 450.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1002
+      y: 450.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1023
+      y: 450.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1044
+      y: 450.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1065
+      y: 450.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1086
+      y: 450.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1107
+      y: 450.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 792
+      y: 471.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 813
+      y: 471.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 834
+      y: 471.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 855
+      y: 471.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 876
+      y: 471.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 897
+      y: 471.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 918
+      y: 471.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 939
+      y: 471.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 960
+      y: 471.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 981
+      y: 471.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1002
+      y: 471.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1023
+      y: 471.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1044
+      y: 471.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1065
+      y: 471.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1086
+      y: 471.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1107
+      y: 471.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 792
+      y: 492.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 813
+      y: 492.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 834
+      y: 492.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 855
+      y: 492.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 876
+      y: 492.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 897
+      y: 492.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 918
+      y: 492.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 939
+      y: 492.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 960
+      y: 492.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 981
+      y: 492.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1002
+      y: 492.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1023
+      y: 492.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1044
+      y: 492.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1065
+      y: 492.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1086
+      y: 492.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1107
+      y: 492.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 792
+      y: 513.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 813
+      y: 513.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 834
+      y: 513.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 855
+      y: 513.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 876
+      y: 513.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 897
+      y: 513.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 918
+      y: 513.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 939
+      y: 513.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 960
+      y: 513.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 981
+      y: 513.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1002
+      y: 513.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1023
+      y: 513.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1044
+      y: 513.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1065
+      y: 513.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1086
+      y: 513.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1107
+      y: 513.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 792
+      y: 534.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 813
+      y: 534.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 834
+      y: 534.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 855
+      y: 534.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 876
+      y: 534.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 897
+      y: 534.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 918
+      y: 534.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 939
+      y: 534.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 960
+      y: 534.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 981
+      y: 534.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1002
+      y: 534.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1023
+      y: 534.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1044
+      y: 534.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1065
+      y: 534.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1086
+      y: 534.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1107
+      y: 534.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 792
+      y: 555.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 813
+      y: 555.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 834
+      y: 555.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 855
+      y: 555.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 876
+      y: 555.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 897
+      y: 555.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 918
+      y: 555.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 939
+      y: 555.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 960
+      y: 555.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 981
+      y: 555.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1002
+      y: 555.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1023
+      y: 555.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1044
+      y: 555.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1065
+      y: 555.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1086
+      y: 555.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1107
+      y: 555.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 792
+      y: 576.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 813
+      y: 576.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 834
+      y: 576.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 855
+      y: 576.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 876
+      y: 576.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 897
+      y: 576.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 918
+      y: 576.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 939
+      y: 576.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 960
+      y: 576.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 981
+      y: 576.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1002
+      y: 576.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1023
+      y: 576.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1044
+      y: 576.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1065
+      y: 576.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1086
+      y: 576.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1107
+      y: 576.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 792
+      y: 597.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 813
+      y: 597.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 834
+      y: 597.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 855
+      y: 597.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 876
+      y: 597.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 897
+      y: 597.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 918
+      y: 597.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 939
+      y: 597.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 960
+      y: 597.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 981
+      y: 597.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1002
+      y: 597.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1023
+      y: 597.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1044
+      y: 597.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1065
+      y: 597.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1086
+      y: 597.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1107
+      y: 597.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 792
+      y: 618.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 813
+      y: 618.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 834
+      y: 618.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 855
+      y: 618.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 876
+      y: 618.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 897
+      y: 618.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 918
+      y: 618.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 939
+      y: 618.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 960
+      y: 618.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 981
+      y: 618.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1002
+      y: 618.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1023
+      y: 618.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1044
+      y: 618.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1065
+      y: 618.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1086
+      y: 618.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1107
+      y: 618.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 792
+      y: 639.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 813
+      y: 639.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 834
+      y: 639.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 855
+      y: 639.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 876
+      y: 639.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 897
+      y: 639.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 918
+      y: 639.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 939
+      y: 639.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 960
+      y: 639.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 981
+      y: 639.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1002
+      y: 639.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1023
+      y: 639.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1044
+      y: 639.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1065
+      y: 639.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1086
+      y: 639.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1107
+      y: 639.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 792
+      y: 660.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 813
+      y: 660.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 834
+      y: 660.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 855
+      y: 660.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 876
+      y: 660.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 897
+      y: 660.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 918
+      y: 660.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 939
+      y: 660.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 960
+      y: 660.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 981
+      y: 660.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1002
+      y: 660.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1023
+      y: 660.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1044
+      y: 660.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1065
+      y: 660.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1086
+      y: 660.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  - rect:
+      x: 1107
+      y: 660.5
+      width: 20
+      height: 20
+    color:
+      r: 0
+      g: 0
+      b: 0
+      a: 0
+  _gridSpacing: 20
+  gridOffsetY: 0
+  gridOffsetX: 0
+  selectedColor:
+    r: 1
+    g: 0
+    b: 0
+    a: 1
+  tool: 0
+  gridBGIndex: 0
