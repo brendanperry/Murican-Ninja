@@ -4,7 +4,7 @@ using System.Collections;
 public class Restart : MonoBehaviour {
 
 	public void ChangeScene(string Restart){
-		Application.LoadLevel ("firstmurica 2");
+		Application.LoadLevel (Restart);
 	
 	}
 }
