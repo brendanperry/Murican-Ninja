@@ -20,7 +20,7 @@ public class Ads : MonoBehaviour
 #endif
 
         // Set the banner position:
-        //Advertisement.Banner.SetPosition(_bannerPosition);
+        Advertisement.Banner.SetPosition(BannerPosition.BOTTOM_CENTER);
 
         LoadBanner();
     }
@@ -43,7 +43,7 @@ public class Ads : MonoBehaviour
     void OnBannerLoaded()
     {
         Debug.Log("Banner loaded");
-
+        ShowBannerAd();
     }
 
     // Implement code to execute when the load errorCallback event triggers:
