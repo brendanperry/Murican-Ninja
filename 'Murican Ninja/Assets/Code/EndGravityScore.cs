@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using UnityEngine.iOS;
 
 public class EndGravityScore : MonoBehaviour {
 	
@@ -16,7 +17,16 @@ public class EndGravityScore : MonoBehaviour {
 		GameObject canvas = GameObject.Find ("Canvas");
 		Text[] textValue = canvas.GetComponentsInChildren<Text> ();
 		textValue [Gscores].text = "GRAVITY SCORE: " + Gscore + "\nGRAVITY HIGH SCORE: " + GhighScore;
-		
+
+		Social.ReportScore(GhighScore, "gravity", success => {
+			Debug.Log(success ? "Reported score successfully" : "Failed to report score");
+		});
+
+		if (Gscore > 50)
+		{
+			Device.RequestStoreReview();
+		}
+
 	}
 	
 	static public void AddPoint () {

@@ -16,7 +16,11 @@ public class FrenzyScreenScore : MonoBehaviour {
 		GameObject canvas = GameObject.Find ("Canvas");
 		Text[] textValue = canvas.GetComponentsInChildren<Text> ();
 		textValue [Fscores].text = "FRENZY SCORE: " + Fscore + "\nFRENZY HIGH SCORE: " + FhighScore;
-		
+
+		Social.ReportScore(FhighScore, "frenzy", success => {
+			Debug.Log(success ? "Reported score successfully" : "Failed to report score");
+		});
+
 	}
 	
 	static public void AddPoint () {

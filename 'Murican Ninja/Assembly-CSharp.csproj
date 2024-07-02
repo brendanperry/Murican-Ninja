@@ -64,6 +64,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Ads.cs" />
     <Compile Include="Assets\BGmove.cs" />
     <Compile Include="Assets\Code\ButtonSound.cs" />
     <Compile Include="Assets\Code\CameraFollowScript.cs" />
@@ -94,6 +95,7 @@
     <Compile Include="Assets\Code\Score.cs" />
     <Compile Include="Assets\DestroyBouncy.cs" />
     <Compile Include="Assets\DontKill.cs" />
+    <Compile Include="Assets\GameCenterManager.cs" />
     <Compile Include="Assets\GravScore.cs" />
     <Compile Include="Assets\InfoToMenu.cs" />
     <Compile Include="Assets\ModeToHome.cs" />

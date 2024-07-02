@@ -14,8 +14,6 @@ public class RainScore : MonoBehaviour {
 	void Start (){
 		Rscore = 0;
 		RhighScore = PlayerPrefs.GetInt ("RhighScore", 0);
-		
-		
 	}
 	
 	static public void AddPoint (int points) {

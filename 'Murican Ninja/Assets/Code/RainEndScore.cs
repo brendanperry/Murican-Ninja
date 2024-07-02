@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using UnityEngine.iOS;
 
 public class RainEndScore : MonoBehaviour {
 	
@@ -16,7 +17,17 @@ public class RainEndScore : MonoBehaviour {
 		GameObject canvas = GameObject.Find ("Canvas");
 		Text[] textValue = canvas.GetComponentsInChildren<Text> ();
 		textValue [Rscores].text = "RAIN SCORE: " + Rscore + "\nRAIN HIGH SCORE: " + RhighScore;
-		
+
+		Social.ReportScore(RhighScore, "rain", success => {
+			Debug.Log(success ? "Reported score successfully" : "Failed to report score");
+		});
+
+
+		if (Rscore > 50)
+		{
+			Device.RequestStoreReview();
+		}
+
 	}
 	
 	static public void AddPoint () {

@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using UnityEngine.iOS;
 
 public class FrenzyEndScreen : MonoBehaviour {
 	
@@ -16,7 +17,16 @@ public class FrenzyEndScreen : MonoBehaviour {
 		GameObject canvas = GameObject.Find ("Canvas");
 		Text[] textValue = canvas.GetComponentsInChildren<Text> ();
 		textValue [Fscores].text = "FRENZY SCORE: " + Fscore + "\nFRENZY HIGH SCORE: " + FhighScore;
-		
+
+		Social.ReportScore(FhighScore, "frenzy", success => {
+			Debug.Log(success ? "Reported score successfully" : "Failed to report score");
+		});
+
+		if (Fscore > 100)
+		{
+			Device.RequestStoreReview();
+		}
+
 	}
 	
 	static public void AddPoint () {

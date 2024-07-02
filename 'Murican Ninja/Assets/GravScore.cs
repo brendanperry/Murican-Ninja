@@ -14,9 +14,6 @@ public class GravScore : MonoBehaviour {
 	void Start (){
 		Gscore = 0;
 		GhighScore = PlayerPrefs.GetInt ("GhighScore", 0);
-
-	
-		
 	}
 	
 	static public void AddPoint (int points) {
