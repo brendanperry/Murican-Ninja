@@ -2,32 +2,61 @@
 using UnityEngine;
 using UnityEngine.Advertisements;
 
-public class Ads : MonoBehaviour
+public class Ads : MonoBehaviour, IUnityAdsInitializationListener
 {
 
-    public string gameId = "1589460";// 5649301
+    private static Ads _instance;
+
+    public static Ads Instance { get { return _instance; } }
+
+
+    private void Awake()
+    {
+        if (_instance != null && _instance != this)
+        {
+            Destroy(this.gameObject);
+        }
+        else
+        {
+            _instance = this;
+        }
+
+        DontDestroyOnLoad(this.gameObject);
+
+        InitializeAds();
+    }
+
+    public string iOSGameId = "5649301";
+    public string androidGameId = "5649301";
+
+    private string gameId;
+
     [SerializeField] string _androidAdUnitId = "Banner_Android";
     [SerializeField] string _iOSAdUnitId = "Banner_iOS";
     string _adUnitId = null; // This will remain null for unsupported platforms.
 
-    void Start()
+    void InitializeAds()
     {
         // Get the Ad Unit ID for the current platform:
 #if UNITY_IOS
         _adUnitId = _iOSAdUnitId;
+        gameId = iOSGameId;
 #elif UNITY_ANDROID
         _adUnitId = _androidAdUnitId;
+        gameId = androidGameId;
 #endif
 
-        // Set the banner position:
-        Advertisement.Banner.SetPosition(BannerPosition.BOTTOM_CENTER);
-
-        LoadBanner();
+        if (!Advertisement.isInitialized && Advertisement.isSupported)
+        {
+            Advertisement.Initialize(gameId, false, this);
+        }
     }
 
     // Implement a method to call when the Load Banner button is clicked:
     public void LoadBanner()
     {
+        Advertisement.Banner.SetPosition(BannerPosition.BOTTOM_CENTER);
+
         // Set up options to notify the SDK of load events:
         BannerLoadOptions options = new BannerLoadOptions
         {
@@ -50,6 +79,10 @@ public class Ads : MonoBehaviour
     void OnBannerError(string message)
     {
         Debug.Log($"Banner Error: {message}");
+        if (!Advertisement.Banner.isLoaded)
+        {
+            LoadBanner();
+        }
         // Optionally execute additional code, such as attempting to load another ad.
     }
 
@@ -61,7 +94,7 @@ public class Ads : MonoBehaviour
         {
             clickCallback = OnBannerClicked,
             hideCallback = OnBannerHidden,
-            showCallback = OnBannerShown
+            showCallback = OnBannerShown,
         };
 
         // Show the loaded Banner Ad Unit:
@@ -78,4 +111,14 @@ public class Ads : MonoBehaviour
     void OnBannerClicked() { }
     void OnBannerShown() { }
     void OnBannerHidden() { }
+
+    public void OnInitializationComplete()
+    {
+        LoadBanner();
+    }
+
+    public void OnInitializationFailed(UnityAdsInitializationError error, string message)
+    {
+        Debug.Log(message);
+    }
 }

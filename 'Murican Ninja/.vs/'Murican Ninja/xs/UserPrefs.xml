@@ -2,25 +2,25 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Ads.cs">
     <Files>
       <File FileName="Assets/Code/GameModes.cs" Line="1" Column="1" />
-      <File FileName="Assets/Code/EndGravityScore.cs" Line="4" Column="23" />
-      <File FileName="Assets/Code/NinjaController.cs" Line="1" Column="1" />
-      <File FileName="Assets/gravityController.cs" Line="1" Column="1" />
-      <File FileName="Assets/GravScore.cs" Line="16" Column="53" />
-      <File FileName="Assets/gravityburger.cs" Line="1" Column="1" />
-      <File FileName="Assets/gravityTwo.cs" Line="1" Column="1" />
-      <File FileName="Assets/Code/MenuToInfo.cs" Line="15" Column="3" />
-      <File FileName="Assets/Code/Destroyer2.cs" Line="1" Column="1" />
-      <File FileName="Assets/Restart.cs" Line="11" Column="1" />
-      <File FileName="Assets/Code/Score.cs" Line="1" Column="1" />
-      <File FileName="Assets/GameCenterManager.cs" Line="30" Column="12" />
-      <File FileName="Assets/RainScore.cs" Line="30" Column="41" />
-      <File FileName="Assets/PowerRain.cs" Line="1" Column="1" />
-      <File FileName="Assets/Code/EndScreenScore.cs" Line="31" Column="2" />
-      <File FileName="Assets/Code/RainEndScore.cs" Line="26" Column="3" />
-      <File FileName="Assets/Code/FrenzyScoreScreen.cs" Line="20" Column="23" />
-      <File FileName="Assets/Code/FrenzyEndScreen.cs" Line="25" Column="3" />
-      <File FileName="Assets/Code/FrenzyBurger.cs" Line="1" Column="1" />
-      <File FileName="Assets/Ads.cs" Line="9" Column="40" />
+      <File FileName="Assets/Code/EndGravityScore.cs" />
+      <File FileName="Assets/Code/NinjaController.cs" />
+      <File FileName="Assets/gravityController.cs" />
+      <File FileName="Assets/GravScore.cs" />
+      <File FileName="Assets/gravityburger.cs" />
+      <File FileName="Assets/gravityTwo.cs" />
+      <File FileName="Assets/Code/MenuToInfo.cs" />
+      <File FileName="Assets/Code/Destroyer2.cs" />
+      <File FileName="Assets/Restart.cs" />
+      <File FileName="Assets/Code/Score.cs" />
+      <File FileName="Assets/GameCenterManager.cs" />
+      <File FileName="Assets/RainScore.cs" />
+      <File FileName="Assets/PowerRain.cs" />
+      <File FileName="Assets/Code/EndScreenScore.cs" />
+      <File FileName="Assets/Code/RainEndScore.cs" />
+      <File FileName="Assets/Code/FrenzyScoreScreen.cs" />
+      <File FileName="Assets/Code/FrenzyEndScreen.cs" />
+      <File FileName="Assets/Code/FrenzyBurger.cs" />
+      <File FileName="Assets/Ads.cs" Line="65" Column="23" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -33,16 +33,11 @@
           </Node>
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="Unity" expanded="True" selected="True" />
-        </State>
-      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="aacb3350-3cae-49c7-bdf1-8d0c39b9496e" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b82fbae6-a608-48ad-b25f-a77b19205603" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

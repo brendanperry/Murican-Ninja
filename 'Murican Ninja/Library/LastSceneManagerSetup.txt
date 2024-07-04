@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/TheMuricanNinjaMenu.unity
+- path: Assets/Scenes/ScoreScreen 1.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

@@ -1,0 +1,3 @@
+UnityEngine.Input
+UnityEngine.iOS.Device::RequestStoreReview
+UnityEngine.Social
